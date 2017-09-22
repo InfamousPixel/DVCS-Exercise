@@ -9,7 +9,18 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <h1>This is the HOMEPAGE!</h1>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name"/>
+    </div>
+    <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail"/>
+    </div>
+    <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
     </div>
     </form>
 </body>
